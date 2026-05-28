@@ -1,7 +1,3 @@
-// =========================
-// HERO SLIDER
-// =========================
-
 const heroSwiper = new Swiper(".mySwiper", {
 
     loop: true,
@@ -25,11 +21,6 @@ const heroSwiper = new Swiper(".mySwiper", {
 
 });
 
-
-
-// =========================
-// PRODUCTS DATA
-// =========================
 
 const products = [
 
@@ -69,17 +60,10 @@ const products = [
 
 
 
-// =========================
-// SELECT PRODUCTS GRID
-// =========================
-
 const productsGrid = document.querySelector(".products-grid");
 
 
 
-// =========================
-// DISPLAY PRODUCTS
-// =========================
 
 function displayProducts() {
 
@@ -134,10 +118,5 @@ function displayProducts() {
 
 }
 
-
-
-// =========================
-// INITIALIZE
-// =========================
 
 displayProducts();

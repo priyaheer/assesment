@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 
-/* =========================
-   GLOBAL
-========================= */
 
 *{
     margin:0;
@@ -18,9 +15,6 @@ body{
 }
 
 
-/* =========================
-   HERO SECTION
-========================= */
 
 .hero{
     width:100%;
@@ -31,9 +25,6 @@ body{
 }
 
 
-/* =========================
-   BANNER
-========================= */
 
 .banner-image{
     width:100%;
@@ -56,8 +47,6 @@ body{
 }
 
 
-/* BANNER TEXT */
-
 .banner-image h1{
     font-size:110px;
     font-weight:800;
@@ -74,9 +63,7 @@ body{
 }
 
 
-/* =========================
-   CONTENT
-========================= */
+
 
 .banner-content{
     background:#14446b;
@@ -108,9 +95,6 @@ body{
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
 
 .buttons{
     display:flex;
@@ -138,10 +122,6 @@ body{
     color:#14446b;
 }
 
-
-/* =========================
-   SWIPER PAGINATION
-========================= */
 
 .swiper-pagination{
     position:absolute !important;
@@ -175,9 +155,6 @@ body{
 }
 
 
-/* =========================
-   PRODUCTS
-========================= */
 
 .featured-products{
     width:100%;
@@ -186,7 +163,6 @@ body{
 }
 
 
-/* SECTION TITLE */
 
 .section-title{
     text-align:center;
@@ -200,10 +176,6 @@ body{
 }
 
 
-/* =========================
-   PRODUCT GRID
-========================= */
-
 .products-grid{
     display:grid;
 
@@ -215,9 +187,6 @@ body{
 }
 
 
-/* =========================
-   PRODUCT CARD
-========================= */
 
 .product-card{
     width:462px;
@@ -238,9 +207,6 @@ body{
 }
 
 
-/* =========================
-   IMAGE
-========================= */
 
 .product-image{
     width:100%;
@@ -259,9 +225,6 @@ body{
 }
 
 
-/* =========================
-   INFO
-========================= */
 
 .product-info{
     width:100%;
@@ -277,7 +240,7 @@ body{
 }
 
 
-/* BRAND */
+
 
 .brand{
     font-size:13px;
@@ -287,7 +250,7 @@ body{
 }
 
 
-/* TITLE */
+
 
 .product-title{
     font-size:20px;
@@ -300,8 +263,6 @@ body{
     margin-bottom:10px;
 }
 
-
-/* PRICE */
 
 .price-box{
     display:flex;
@@ -324,9 +285,6 @@ body{
 }
 
 
-/* =========================
-   TABLET
-========================= */
 
 @media(max-width:1900px){
 
@@ -338,10 +296,6 @@ body{
 
 }
 
-
-/* =========================
-   MOBILE
-========================= */
 
 @media(max-width:768px){
 
@@ -426,9 +380,6 @@ body{
 }
 
 
-/* =========================
-   SMALL MOBILE
-========================= */
 
 @media(max-width:480px){
 
